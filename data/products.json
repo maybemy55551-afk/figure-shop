@@ -1,0 +1,8 @@
+[
+ {"id":"raiden","name":"Райден Сёгун","series":"Genshin Impact","cat":"genshin","price":6000,"size":"около 28 см","hero":true,
+  "desc":"Коллекционная фигурка на подставке с прозрачными эффектами молний. Продаётся без подарочной коробки.",
+  "images":["images/raiden-1.jpg","images/raiden-2.jpg"]},
+ {"id":"shark","name":"Девушка с акулой (название уточняется)","series":"Аниме","cat":"anime","price":5000,"size":"около 28 см","hero":false,
+  "desc":"Сидящая фигурка с плюшевой акулой на круглой подставке. Продаётся без подарочной коробки.",
+  "images":["images/sitting-1.jpg","images/sitting-2.jpg"]}
+]
