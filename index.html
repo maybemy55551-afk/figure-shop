@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Нефрит — коллекционные фигурки</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header class="top"><a class="logo" href="#">Нефрит</a>
+<button id="cartBtn" class="cartbtn">Корзина <b id="cnt">0</b></button></header>
+<section class="hero" id="hero"></section>
+<main><nav class="tabs" id="tabs">
+<button data-c="all" class="on">Все</button><button data-c="genshin">Genshin</button><button data-c="anime">Аниме</button></nav>
+<div class="grid" id="grid"></div>
+<p class="note">Доставка заказываем под вас: срок 2–4 недели. Пункты выдачи: Wildberries, Почта России, 5Post.</p></main>
+<div class="ov" id="ov"></div>
+<aside class="drawer" id="drawer"><button class="x" id="closeCart" aria-label="Закрыть">×</button><h2>Корзина</h2><div id="items"></div>
+<form id="form" hidden>
+<input name="fio" placeholder="Фамилия Имя Отчество" required>
+<input name="phone" type="tel" placeholder="Телефон" required>
+<input name="tg" placeholder="Telegram (@ник)" required>
+<input name="email" type="email" placeholder="Gmail / email" required>
+<select name="delivery" required><option value="">Способ доставки</option><option>Wildberries</option><option>Почта России</option><option>5Post</option></select>
+<input name="point" placeholder="Адрес пункта выдачи" required>
+<input name="site" class="hp" tabindex="-1" autocomplete="off">
+<label class="chk"><input type="checkbox" required> Согласен на обработку персональных данных</label>
+<button class="buy" id="send">Оформить заказ</button><p id="msg" role="status"></p></form></aside>
+<script src="js/app.js"></script></body></html>
